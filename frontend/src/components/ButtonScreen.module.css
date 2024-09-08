@@ -1,0 +1,172 @@
+
+.buttonContainer {
+    position: absolute; 
+    top: 56px; 
+    left: 16px; 
+    display: flex;
+    gap: 10px;
+}
+
+
+
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.grey {
+    background-color: #6c757d;
+}
+
+.green {
+    background-color: #28a745;
+}
+
+.detailsContainer {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    flex-shrink: 0;
+   
+}
+
+.details {
+ 
+    flex: 1;
+    margin-right: 20px;
+    text-align: left;
+    border: 1px solid #ccc;
+    margin-top: 150px;
+    min-width: 250px;
+    flex-shrink: 0;
+    margin-left: -10px;
+    border-radius: 5px;
+}
+
+.details div {
+    margin-bottom: 10px;
+}
+
+.detailsText{
+    margin:10px;
+}
+.detailsText2{
+    margin-left: 10px;
+    margin-top: 35px;
+}
+.detailsText3{
+    margin-left: 10px;
+    margin-top:50px;
+}
+
+.flag {
+
+    
+    text-align: center;
+    margin-right: 200px;
+    margin-top: 80px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-shrink: 0.5;
+
+
+
+}
+
+.flag img {
+
+    max-width: 100%;
+    height: auto;
+    margin-left: -20px;
+    margin-top: 20px;
+    min-width: 200px;
+
+
+}
+
+.flagText {
+    
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 5px;
+    font-size: 20px;
+    color: black;
+    margin-top: -20px;
+    margin-bottom: 14px;
+    text-align: left;
+    margin-left: -20px;
+
+}
+
+.separator {
+    border: 0;
+    border-top: 1px solid #ddd; 
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.populationBox {
+    background-color: #e7e3e3; 
+    border: 1px solid #ccc; 
+    border-radius: 2px; 
+    padding: 8px; 
+    font-size: 16px; 
+    text-align: left; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: -3px;
+    width: 150px;
+    height: 10px;
+}
+
+.populationContainer {
+    display: flex;
+    gap: 4px; 
+    margin-left: 10px;
+    margin-top: 35px;
+}
+
+.currenciesContainer {
+    display: flex;
+    align-items: center;
+    gap:5px;
+}
+
+.currenciesButton {
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 35px;
+   
+
+}
+
+.currenciesButton:hover {
+    background-color: darkblue;
+}
+
+.showCurrencies{
+
+    background-color: rgb(219, 219, 224);
+    color: rgb(8, 8, 8);
+    border: none;
+    border-radius: 2px;
+    padding: 3px;
+    font-size: 16px;
+    margin-top: 50px;
+    width: 215;
+}
+
+
+
+
